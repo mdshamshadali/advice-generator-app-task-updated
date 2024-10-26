@@ -1,0 +1,82 @@
+
+body {
+    font-family: 'Manrope', sans-serif;
+    background-color: hsl(218, 23%, 16%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.advice-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.advice-card {
+    background-color: hsl(217, 19%, 24%);
+    color: hsl(193, 38%, 86%);
+    text-align: center;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 500px;
+    transition: transform 0.2s;
+}
+
+.advice-id {
+    color: hsl(150, 100%, 66%);
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#advice-text {
+    font-size: 28px;
+    font-weight: 800;
+    margin: 20px 0;
+    line-height: 1.5;
+}
+
+.divider {
+    height: 1px;
+    background-color: hsl(217, 19%, 38%);
+    margin: 20px auto;
+    width: 80%;
+}
+
+.dice-button {
+    background-color: hsl(150, 100%, 66%);
+    border: none;
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+}
+
+.dice-button:hover {
+    box-shadow: 0 0 20px hsl(150, 100%, 66%);
+}
+
+@media (max-width: 375px) {
+    .advice-card {
+        padding: 20px;
+    }
+
+    #advice-text {
+        font-size: 24px;
+    }
+
+    .divider {
+        width: 60%;
+    }
+}
+ card */
+.advice-card:hover {
+    transform: scale(1.02);
+}
